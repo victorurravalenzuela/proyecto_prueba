@@ -29,3 +29,5 @@ public class Eventix {
     @NotNull (message = "El campo capacidad evento no debe estar en blanco")
     private int capacidadEvento;
 }
+
+//aca va otro codigo

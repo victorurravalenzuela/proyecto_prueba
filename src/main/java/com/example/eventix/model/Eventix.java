@@ -30,6 +30,11 @@ public class Eventix {
     @NotBlank (message = "El campo fecha evento no debe estar en blanco")
     private String fechaEvento;
 
+    @NotBlank (message = "El campo fecha evento no debe estar en blanco")
+    private String fechaPrueba;
+
+
+
     //hola
 
     @NotBlank (message = "El campo ubicacion evento no debe estar en blanco")

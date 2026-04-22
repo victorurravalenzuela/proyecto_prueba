@@ -18,6 +18,8 @@ public class EventixRepository {
         listaEventos.add(new Eventix(5, "Fiesta victor", "cumpleaños", "noviembre - 2020", "Santiago", 500));
     }
 
+    //Victor el mas creativo
+
     //guardar - registrar - Post, metodo que guarda un evento nuevo
     public Eventix guardarEvento (Eventix evento){
         evento.setIdEvento(contadorId++);

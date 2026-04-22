@@ -14,6 +14,9 @@ public class Eventix {
     @NotNull (message = "El campo Id no debe estar en blanco")
     private int idEvento;
 
+    @NotBlank (message = "hola")
+    private int apellido;
+
     @NotBlank (message = "El campo nombre evento no debe estar en blanco")
     private String nombreEvento;
 
@@ -22,6 +25,8 @@ public class Eventix {
 
     @NotBlank (message = "El campo fecha evento no debe estar en blanco")
     private String fechaEvento;
+
+    //hola
 
     @NotBlank (message = "El campo ubicacion evento no debe estar en blanco")
     private String ubicacionEvento;

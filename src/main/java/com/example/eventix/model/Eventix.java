@@ -18,7 +18,6 @@ public class Eventix {
     private int apellido;
 
     private String caca;
-    private String hola;
 
     //codigo cata sjodhñoasnddvisbadv
 
@@ -28,7 +27,8 @@ public class Eventix {
     @NotBlank (message = "El campo tipo evento no debe estar en blanco")
     private String tipoEvento;
 
-
+    @NotBlank (message = "El campo fecha evento no debe estar en blanco")
+    private String fechaEvento;
 
 
 

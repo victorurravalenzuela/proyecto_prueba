@@ -18,6 +18,7 @@ public class Eventix {
     private int apellido;
 
     private String caca;
+    private String hola;
 
     //codigo cata sjodhñoasnddvisbadv
 
